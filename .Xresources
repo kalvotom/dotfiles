@@ -1,0 +1,81 @@
+!-----------------------------------------------------------------------------
+! Xcursor --------------------------------------------------------------------
+
+Xcursor.theme: Vanilla-DMZ-AA
+Xcursor.size:  22
+
+!-----------------------------------------------------------------------------
+! Xft settings ---------------------------------------------------------------
+
+Xft.dpi:        96
+Xft.antialias:  true
+Xft.rgba:       rgb
+Xft.hinting:    true
+Xft.hintstyle:  hintslight
+
+!-----------------------------------------------------------------------------
+! xterm ----------------------------------------------------------------------
+
+xterm*VT100.geometry:     80x25
+xterm*faceName:           Monospace:style=Regular:size=14
+xterm*dynamicColors:      true
+xterm*utf8:               2
+xterm*eightBitInput:      true
+xterm*saveLines:          512
+xterm*scrollKey:          true
+xterm*scrollTtyOutput:    false
+xterm*scrollBar:          false
+xterm*rightScrollBar:     false
+xterm*jumpScroll:         true
+xterm*multiScroll:        true
+xterm*toolBar:            false
+
+
+!------------------------------------------------------------------------------
+! URXVT - Settings
+
+URxvt.depth: 32
+URxvt.saveLines: 12000
+
+URxvt*geometry:                                 80x25
+URxvt*borderLess:                               false
+URxvt*scrollBar:                                false
+URxvt*cursorBlink:                              true
+URxvt*cursorUnderline:                          true
+URxvt*font:                                     xft:dejavusansmono:hinting=true:pixelsize=16:antialias=false
+!URxvt*boldFont:                                 xft:terminusmodx:style=bold:hinting=true:pixelsize=7:antialias=false
+!URxvt*italicFont:                               xft:terminusmodx:style=italic:hinting=true:pixelsize=7:antialias=false
+!URxvt*boldItalicFont:                           xft:terminusmodx:style=bolditalic:hinting=true:pixelsize=7:antialias=false
+URxvt.underlineURLs:                            true
+!URxvt.url-select.launcher:                      /usr/bin/luakit
+!URxvt.url-select.underline:                     true
+
+! Solarized - light - colorscheme
+
+URxvt*colorUL:                #859900
+URxvt*colorBD:                #268bd2
+URxvt*color1:                 #dc322f
+URxvt*color9:                 #cb4b16
+URxvt*color2:                 #859900
+URxvt*color3:                 #b58900
+URxvt*color4:                 #268bd2
+URxvt*color5:                 #d33682
+URxvt*color13:                #6c71c4
+URxvt*color6:                 #2aa198
+
+URxvt*background:             #fdf6e3
+URxvt*foreground:             #657b83
+URxvt*fadeColor:              #fdf6e3
+URxvt*cursorColor:            #586e75
+URxvt*pointerColorBackground: #93a1a1
+URxvt*pointerColorForeground: #586e75
+URxvt*scrollColor:            #93a1a1
+URxvt*borderColor:            #fdf6e3
+URxvt*color0:                 #073642
+URxvt*color8:                 #657b83
+URxvt*color10:                #93a1a1
+URxvt*color11:                #839496
+URxvt*color12:                #657b83
+URxvt*color14:                #586e75
+URxvt*color7:                 #839496
+URxvt*color15:                #002b36
