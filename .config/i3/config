@@ -185,8 +185,9 @@ bar {
 }
 
 exec nm-applet
-
 exec pidgin
+exec redshift-gtk
+exec emoji-keyboard
 
 # i3-style
 # i3-style solarized -o ~/.config/i3/config --reload
