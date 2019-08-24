@@ -187,6 +187,8 @@ exec nm-applet
 exec pidgin
 exec redshift-gtk
 exec emoji-keyboard
+exec fortune | xcowsay --time 10
+exec /usr/lib/xfce4/notifyd/xfce4-notifyd
 
 # i3-style
 # i3-style solarized -o ~/.config/i3/config --reload
