@@ -4,6 +4,7 @@
 
 Useful dependencies and stuff I use:
 
+ * autorandr
  * dmenu
  * i3status
  * nm-applet
